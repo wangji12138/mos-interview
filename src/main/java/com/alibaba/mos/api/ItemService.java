@@ -7,7 +7,7 @@ package com.alibaba.mos.api;
 /**
  *
  * @author superchao
- * @version $Id: ItemAggregationProviderConsumer.java, v 0.1 2019年10月28日 12:00 PM superchao Exp $
+ * @version $Id: ItemService.java, v 0.1 2019年10月28日 12:00 PM superchao Exp $
  */
 public interface ItemService<T> {
     /**

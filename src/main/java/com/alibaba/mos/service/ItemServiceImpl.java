@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 /**
  *
  * @author superchao
- * @version $Id: ItemAggregationProviderConsumerImpl.java, v 0.1 2019年11月20日 3:06 PM superchao Exp $
+ * @version $Id: ItemServiceImpl.java, v 0.1 2019年11月20日 3:06 PM superchao Exp $
  */
 @Service
 public class ItemServiceImpl implements ItemService<ItemDO> {

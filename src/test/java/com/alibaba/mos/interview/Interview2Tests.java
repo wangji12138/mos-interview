@@ -61,7 +61,7 @@ class Interview2Tests {
      * 试题3:
      * 本题不考虑内存问题
      *
-     * 基于试题1, 在com.alibaba.mos.service.ItemAggregationProviderConsumer中实现一个生产者消费者, 将sku列表聚合为商品, 并通过回调函数返回
+     * 基于试题1, 在com.alibaba.mos.service.ItemServiceImpl中实现一个生产者消费者, 将sku列表聚合为商品, 并通过回调函数返回
      * 聚合规则为:
      * 对于sku type为原始商品(ORIGIN)的, 按货号(artNo)聚合成ITEM
      * 对于sku type为数字化商品(DIGITAL)的, 按spuId聚合成ITEM
