@@ -30,7 +30,7 @@ class Interview2Tests {
      * 注意: 假设sku数据很多, 无法将sku列表完全加载到内存中
      *
      * 实现com.alibaba.mos.api.SkuReadService#loadSkus(com.alibaba.mos.api.SkuReadService.SkuHandler)
-     * 从/resources/data/data.csv读取数据并逐条打印数据
+     * 从/resources/data/skus.txt读取数据并逐条打印数据
      */
     @Test
     void readDataFromExcelWithHandlerTest() {
