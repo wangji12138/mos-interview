@@ -30,7 +30,7 @@ class Interview2Tests {
      * 注意: 假设sku数据很多, 无法将sku列表完全加载到内存中
      *
      * 实现com.alibaba.mos.api.SkuReadService#loadSkus(com.alibaba.mos.api.SkuReadService.SkuHandler)
-     * 从/resources/data/skus.txt读取数据并逐条打印数据
+     * 从/resources/data/skus.txt读取数据并逐条打印数据，数据字段用'|'分隔
      */
     @Test
     void readDataFromExcelWithHandlerTest() {
@@ -61,7 +61,7 @@ class Interview2Tests {
      * 试题3:
      * 本题不考虑内存问题
      *
-     * 基于试题1, 在com.alibaba.mos.service.ItemServiceImpl中实现一个生产者消费者, 将sku列表聚合为商品, 并通过回调函数返回
+     * 基于试题1, 在com.alibaba.mos.service.ItemServiceImpl中实现一个生产者消费者, 将sku列表聚合为商品并通过ItemDAO保存到数据库中
      * 聚合规则为:
      * 对于sku type为原始商品(ORIGIN)的, 按货号(artNo)聚合成ITEM
      * 对于sku type为数字化商品(DIGITAL)的, 按spuId聚合成ITEM

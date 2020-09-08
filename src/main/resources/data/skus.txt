@@ -1,4 +1,5 @@
-﻿1|货品1|A001|1001|ORIGIN|1|[{"channelCode":"MIAO","inventory":10},{"channelCode":"TMALL","inventory":5},{"channelCode":"INTIME","inventory":3}]
+﻿id|name|artNo|spuId|skuType|price|inventorys
+1|货品1|A001|1001|ORIGIN|1|[{"channelCode":"MIAO","inventory":10},{"channelCode":"TMALL","inventory":5},{"channelCode":"INTIME","inventory":3}]
 2|货品2|A002|1002|DIGITAL|3|[{"channelCode":"MIAO","inventory":9},{"channelCode":"TMALL","inventory":7},{"channelCode":"INTIME","inventory":4}]
 3|货品3|A003|1003|ORIGIN|2|[{"channelCode":"MIAO","inventory":8},{"channelCode":"TMALL","inventory":2},{"channelCode":"INTIME","inventory":5}]
 4|货品4|A001|1004|ORIGIN|3|[{"channelCode":"MIAO","inventory":7},{"channelCode":"TMALL","inventory":1},{"channelCode":"INTIME","inventory":6}]
