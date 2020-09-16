@@ -59,9 +59,10 @@ class Interview2Tests {
 
     /**
      * 试题3:
-     * 本题不考虑内存问题
      *
-     * 基于试题1, 在com.alibaba.mos.service.ItemServiceImpl中实现一个生产者消费者, 将sku列表聚合为商品并通过ItemDAO保存到数据库中
+     * 基于试题1, 在com.alibaba.mos.service.ItemServiceImpl中实现一个生产者消费者, 将sku列表聚合为商品并通过com.alibaba.mos.dao.ItemDAO保存到数据库中
+     * 注意通过com.alibaba.mos.dao.ItemDAO进行数据操作无需考虑内存问题
+     *
      * 聚合规则为:
      * 对于sku type为原始商品(ORIGIN)的, 按货号(artNo)聚合成ITEM
      * 对于sku type为数字化商品(DIGITAL)的, 按spuId聚合成ITEM
