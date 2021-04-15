@@ -5,6 +5,7 @@
 package com.alibaba.mos.data;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -16,6 +17,7 @@ import java.util.List;
  * @version $Id: SkuEntity.java, v 0.1 2019年10月28日 10:36 AM superchao Exp $
  */
 @Data
+@NoArgsConstructor
 public class SkuDO implements Serializable {
     /**
      * sku id
@@ -50,5 +52,5 @@ public class SkuDO implements Serializable {
     /**
      * 渠道库存
      */
-    List<ChannelInventoryDO> inventoryList;
+    private List<ChannelInventoryDO> inventoryList;
 }
