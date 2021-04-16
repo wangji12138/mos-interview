@@ -32,7 +32,7 @@ public class ItemServiceImpl implements ItemService<ItemDO> {
     public void aggregation() {
         // 聚合商品数据并通过com.alibaba.mos.dao.ItemDAO将其保存到虚拟数据库中
         //线程池
-
+        //此方式可能对“数据库”压力过大
         skuReadService.loadSkus(skuDO -> {
             if (null == skuDO) {
                 log.error("[Interview2Tests::appendAllPriceSkuIdMap] 当前sku为空，请核实");

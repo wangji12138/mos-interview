@@ -31,6 +31,9 @@ class Interview2Tests {
     @Autowired
     ItemService<ItemDO> itemService;
 
+    /**
+     * 需要生成排名数
+     */
     private final static int RANK_NUM = 5;
 
     /**
