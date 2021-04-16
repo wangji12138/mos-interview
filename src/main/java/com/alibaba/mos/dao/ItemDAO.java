@@ -19,8 +19,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class ItemDAO {
 
-    private static Map<String, ItemDO> artItemDb = new ConcurrentHashMap<>();
-    private static Map<String, ItemDO> spuItemDb = new ConcurrentHashMap<>();
+    public static Map<String, ItemDO> artItemDb = new ConcurrentHashMap<>();
+    public static Map<String, ItemDO> spuItemDb = new ConcurrentHashMap<>();
 
     /**
      * 根据itemId获取item

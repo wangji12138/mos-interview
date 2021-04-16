@@ -16,6 +16,8 @@ import java.math.BigDecimal;
  */
 @Data
 public class ChannelInventoryDO implements Serializable {
+    private static final long serialVersionUID = 4760484019119012144L;
+
     /**
      * 渠道编码, 目前包含: MIAO, TMALL, INTIME 3个渠道
      */
